@@ -1,11 +1,22 @@
 # Crown Janitorial Services | UK Property Specialists
 
+[![GitHub Pages](https://img.shields.io/badge/Website-Live%20on%20GitHub%20Pages-success?style=for-the-badge&logo=github)](https://douglassrf.github.io/crown-janitorial-services/)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Direct%20Chat-25D366?style=for-the-badge&logo=whatsapp)](https://wa.me/447497121829)
+[![UK Market](https://img.shields.io/badge/Region-London%20%26%20Surrounds-0A192F?style=for-the-badge)](https://douglassrf.github.io/crown-janitorial-services/)
+
 > **"Transforming spaces from the ground up."**  
 > Premier Commercial & Domestic Cleaning • Full Turnkey Refurbishments & Construction  
-> Serving London and Surrounding Areas.
+> Serving London and Surrounding Areas, United Kingdom.
 
-🌐 **Live Website:** [https://douglassrf.github.io/crown-janitorial-services/](https://douglassrf.github.io/crown-janitorial-services/)  
-📱 **WhatsApp Direct:** [+44 7497 121829](https://wa.me/447497121829)
+---
+
+## 🌐 Quick Access Links
+
+| Platform | URL |
+| :--- | :--- |
+| **Official Website (Live)** | [https://douglassrf.github.io/crown-janitorial-services/](https://douglassrf.github.io/crown-janitorial-services/) |
+| **Direct WhatsApp Support** | [+44 7497 121829](https://wa.me/447497121829) |
+| **GitHub Repository** | [https://github.com/Douglassrf/crown-janitorial-services](https://github.com/Douglassrf/crown-janitorial-services) |
 
 ---
 
@@ -28,7 +39,7 @@ Crown Janitorial Services bridges the gap between high-calibre construction work
 
 ---
 
-## ✨ Website Features
+## ✨ Website Architecture & Features
 
 - **British Aesthetic:** Styled in Royal Navy (`#0A192F`), British Heritage Gold (`#D4AF37`), and crisp clean accents with *Playfair Display* and *Plus Jakarta Sans*.
 - **Interactive GBP Instant Quote Estimator:** Real-time pricing calculator for London properties with instant WhatsApp dispatch.
@@ -38,7 +49,21 @@ Crown Janitorial Services bridges the gap between high-calibre construction work
 
 ---
 
+## 📂 Repository File Structure
+
+```text
+crown-janitorial-services/
+├── index.html       # Complete semantic structure & SEO metadata
+├── styles.css       # Premium British design system & responsive CSS
+├── script.js        # Dynamic GBP quote estimator & WhatsApp integration
+├── README.md        # Documentation, badges & live links
+└── .gitignore       # Git exclusion rules
+```
+
+---
+
 ## 🚀 Deployment
 
-- **GitHub Pages:** Automatically hosted from the `main` branch.
-- **Zero Dependencies:** Pure semantic HTML5, CSS3, and vanilla JavaScript.
+- **Hosted on:** GitHub Pages (Automated build from `main` branch).
+- **SSL / HTTPS:** Fully enabled with end-to-end security.
+- **Tech Stack:** Semantic HTML5, Modern CSS3 (Grid & Flexbox), Vanilla JavaScript ES6+.
