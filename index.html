@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crown Janitorial Services | Property Specialists in the UK</title>
+    <meta name="description" content="Premier cleaning, comprehensive refurbishments, and property construction specialists serving London & Surrounds. Transforming spaces from the ground up. Get your free quote today.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230a192f'/><path d='M25 68 L20 38 L38 50 L50 30 L62 50 L80 38 L75 68 Z' fill='%23d4af37'/><circle cx='50' cy='26' r='4' fill='%23d4af37'/><circle cx='20' cy='34' r='4' fill='%23d4af37'/><circle cx='80' cy='34' r='4' fill='%23d4af37'/></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="top-info">
+                <span><i class="fa-solid fa-location-dot"></i> Serving London & Surrounds, UK</span>
+                <span class="divider">•</span>
+                <span><i class="fa-solid fa-clock"></i> Mon - Sat: 07:00 - 19:00</span>
+                <span class="divider">•</span>
+                <span><i class="fa-solid fa-shield-halved"></i> Fully Insured & Vetted Property Specialists</span>
+            </div>
+            <div class="top-contact">
+                <a href="https://wa.me/447497121829" target="_blank" class="top-link whatsapp-glow">
+                    <i class="fa-brands fa-whatsapp"></i> +44 7497 121829
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="main-header" id="header">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-crown"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="brand-name">CROWN</span>
+                    <span class="brand-tagline">JANITORIAL & PROPERTY SERVICES</span>
+                </div>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#services" class="nav-link">Our Services</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#refurbishment" class="nav-link">Refurbishments</a></li>
+                    <li><a href="#calculator" class="nav-link">Quote Estimator</a></li>
+                    <li><a href="#reviews" class="nav-link">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="https://wa.me/447497121829?text=Hello%20Crown%20Janitorial%20Services,%20I%20would%20like%20to%20request%20a%20free%20quote." target="_blank" class="btn btn-primary">
+                    <i class="fa-brands fa-whatsapp"></i> Instant Quote
+                </a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    UK Property Specialists • Cleaning & Construction
+                </div>
+                <h1 class="hero-title">
+                    Transforming Spaces <br>
+                    <span class="text-gold">From The Ground Up.</span>
+                </h1>
+                <p class="hero-description">
+                    Premier commercial & domestic cleaning, end-of-tenancy deep cleans, and comprehensive building refurbishments across <strong>London and surrounding areas</strong>. Delivered on time with flawless British craftsmanship.
+                </p>
+
+                <div class="hero-cta-group">
+                    <a href="#calculator" class="btn btn-gold btn-lg">
+                        <i class="fa-solid fa-calculator"></i> Calculate Your Quote
+                    </a>
+                    <a href="https://wa.me/447497121829?text=Hi%20Crown%20Janitorial,%20I%20need%20a%20quote%20for%20my%20property%20in%20London/Surrounds." target="_blank" class="btn btn-outline-white btn-lg">
+                        <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                    </a>
+                </div>
+
+                <!-- Trust Points -->
+                <div class="hero-trust">
+                    <div class="trust-item">
+                        <i class="fa-solid fa-certificate"></i>
+                        <span>100% Guaranteed Satisfaction</span>
+                    </div>
+                    <div class="trust-item">
+                        <i class="fa-solid fa-file-shield"></i>
+                        <span>Full Public Liability Cover</span>
+                    </div>
+                    <div class="trust-item">
+                        <i class="fa-solid fa-bolt"></i>
+                        <span>Rapid Response Across London</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Floating Card -->
+            <div class="hero-card">
+                <div class="card-header-badge">Quick Booking</div>
+                <div class="hero-card-inner">
+                    <h3>Request an Immediate Survey</h3>
+                    <p>Tell us what you need and our London team will respond within 15 minutes.</p>
+                    <form id="heroQuickForm">
+                        <div class="form-group">
+                            <label><i class="fa-solid fa-hammer"></i> Service Required</label>
+                            <select id="quickService" required>
+                                <option value="Commercial Cleaning">Commercial & Office Cleaning</option>
+                                <option value="End of Tenancy">End of Tenancy Deep Clean</option>
+                                <option value="Post-Construction Clean">After Builders / Post-Construction Clean</option>
+                                <option value="Full Refurbishment">Full Property Refurbishment</option>
+                                <option value="Kitchen/Bathroom">Kitchen or Bathroom Renovation</option>
+                                <option value="Painting & Decorating">Painting & Decorating</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fa-solid fa-map-pin"></i> Your Postcode / Area</label>
+                            <input type="text" id="quickPostcode" placeholder="e.g. SW1, E14, CR0, London" required>
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fa-solid fa-phone"></i> Phone / WhatsApp</label>
+                            <input type="tel" id="quickPhone" placeholder="+44 7497 121829" required>
+                        </div>
+                        <button type="submit" class="btn btn-gold btn-block">
+                            <i class="fa-solid fa-paper-plane"></i> Get Free Quote via WhatsApp
+                        </button>
+                    </form>
+                    <div class="card-footer-note">
+                        <i class="fa-solid fa-lock"></i> No obligation • Free consultation & survey
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Stats Banner -->
+    <section class="stats-banner">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <span class="stat-number">1,250+</span>
+                <span class="stat-label">Properties Transformed</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">99.8%</span>
+                <span class="stat-label">Client Approval Rate</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Deposit Back Guarantee</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">24/7</span>
+                <span class="stat-label">Emergency Callout Support</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header text-center">
+                <div class="section-tag">TWO CORE PILLARS OF EXCELLENCE</div>
+                <h2 class="section-title">Comprehensive Property Solutions</h2>
+                <p class="section-subtitle">
+                    Whether you require surgical hygiene sanitisation for corporate premises or a ground-up turnkey property refurbishment, Crown delivers unmatched quality across the UK.
+                </p>
+                
+                <!-- Category Switcher Buttons -->
+                <div class="category-tabs">
+                    <button class="tab-btn active" data-tab="all">All Services</button>
+                    <button class="tab-btn" data-tab="cleaning"><i class="fa-solid fa-broom"></i> Professional Cleaning</button>
+                    <button class="tab-btn" data-tab="construction"><i class="fa-solid fa-trowel-bricks"></i> Refurbishment & Build</button>
+                </div>
+            </div>
+
+            <div class="services-grid" id="servicesGrid">
+                <!-- Cleaning Service 1 -->
+                <div class="service-card" data-category="cleaning">
+                    <div class="card-image-box">
+                        <div class="service-icon"><i class="fa-solid fa-sparkles"></i></div>
+                        <span class="service-badge">High Demand</span>
+                    </div>
+                    <div class="service-body">
+                        <h3>End of Tenancy Deep Cleaning</h3>
+                        <p>Approved by top London estate agents. Guaranteed deposit-return standard including full oven de-greasing, limescale removal, and window detailing.</p>
+                        <ul class="service-features">
+                            <li><i class="fa-solid fa-check"></i> 72-Hour Free Re-clean Guarantee</li>
+                            <li><i class="fa-solid fa-check"></i> Detailed Inventory Checklist Provided</li>
+                            <li><i class="fa-solid fa-check"></i> Eco-friendly Industrial Grade Products</li>
+                        </ul>
+                        <div class="card-action">
+                            <a href="https://wa.me/447497121829?text=Hello,%20I%20need%20an%20End%20of%20Tenancy%20Clean%20quote." target="_blank" class="btn btn-outline-dark btn-sm">Book This Service</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cleaning Service 2 -->
+                <div class="service-card" data-category="cleaning">
+                    <div class="card-image-box">
+                        <div class="service-icon"><i class="fa-solid fa-building"></i></div>
+                        <span class="service-badge">Commercial</span>
+                    </div>
+                    <div class="service-body">
+                        <h3>Commercial & Office Janitorial</h3>
+                        <p>Daily, weekly, or custom maintenance cleaning for corporate offices, retail spaces, medical clinics, and industrial facilities in London & Greater London.</p>
+                        <ul class="service-features">
+                            <li><i class="fa-solid fa-check"></i> Flexible Out-of-Hours Schedules</li>
+                            <li><i class="fa-solid fa-check"></i> Sanitised Desks, Kitchens & Washrooms</li>
+                            <li><i class="fa-solid fa-check"></i> Dedicated Keyholding & Security Cleared</li>
+                        </ul>
+                        <div class="card-action">
+                            <a href="https://wa.me/447497121829?text=Hello,%20I%20am%20enquiring%20about%20Commercial%20Office%20Cleaning." target="_blank" class="btn btn-outline-dark btn-sm">Book This Service</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cleaning Service 3 -->
+                <div class="service-card" data-category="cleaning">
+                    <div class="card-image-box">
+                        <div class="service-icon"><i class="fa-solid fa-hard-hat"></i></div>
+                        <span class="service-badge">Post-Build</span>
+                    </div>
+                    <div class="service-body">
+                        <h3>After Builders & Construction Clean</h3>
+                        <p>Heavy-duty dust removal, paint splatter scraping, silicone residue cleanup, and clinical sparkle cleans after renovation or new construction works.</p>
+                        <ul class="service-features">
+                            <li><i class="fa-solid fa-check"></i> Industrial HEPA Air & Surface Extraction</li>
+                            <li><i class="fa-solid fa-check"></i> Handover-Ready Finish for Developers</li>
+                            <li><i class="fa-solid fa-check"></i> Rapid 24h Turnaround Available</li>
+                        </ul>
+                        <div class="card-action">
+                            <a href="https://wa.me/447497121829?text=Hello,%20I%20need%20After%20Builders%20Cleaning." target="_blank" class="btn btn-outline-dark btn-sm">Book This Service</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Construction Service 1 -->
+                <div class="service-card" data-category="construction">
+                    <div class="card-image-box">
+                        <div class="service-icon"><i class="fa-solid fa-house-chimney-crack"></i></div>
+                        <span class="service-badge gold-badge">Turnkey Refurb</span>
+                    </div>
+                    <div class="service-body">
+                        <h3>Full Property Refurbishments</h3>
+                        <p>Complete transformation of residential and commercial premises. From structural stripping to luxury turnkey finishes, project-managed from end to end.</p>
+                        <ul class="service-features">
+                            <li><i class="fa-solid fa-check"></i> Single Point of Contact & Project Manager</li>
+                            <li><i class="fa-solid fa-check"></i> UK Building Regulations Compliant</li>
+                            <li><i class="fa-solid fa-check"></i> Fixed Timelines & Staged Payments</li>
+                        </ul>
+                        <div class="card-action">
+                            <a href="https://wa.me/447497121829?text=Hello,%20I%20would%20like%20a%20Full%20Property%20Refurbishment%20consultation." target="_blank" class="btn btn-outline-dark btn-sm">Discuss Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Construction Service 2 -->
+                <div class="service-card" data-category="construction" id="refurbishment">
+                    <div class="card-image-box">
+                        <div class="service-icon"><i class="fa-solid fa-bath"></i></div>
+                        <span class="service-badge gold-badge">Specialist</span>
+                    </div>
+                    <div class="service-body">
+                        <h3>Kitchen & Bathroom Installations</h3>
+                        <p>Custom design, plumbing, electrics, tiling, cabinetry installation, and luxury fitting. Transforming tired suites into showroom-standard living spaces.</p>
+                        <ul class="service-features">
+                            <li><i class="fa-solid fa-check"></i> Certified Plumbing & Gas-Safe Partners</li>
+                            <li><i class="fa-solid fa-check"></i> High-End Italian & British Ceramics</li>
+                            <li><i class="fa-solid fa-check"></i> Waterproofing & Wetroom Specialists</li>
+                        </ul>
+                        <div class="card-action">
+                            <a href="https://wa.me/447497121829?text=Hello,%20I%20want%20to%20refurbish%20my%20Kitchen/Bathroom." target="_blank" class="btn btn-outline-dark btn-sm">Discuss Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Construction Service 3 -->
+                <div class="service-card" data-category="construction">
+                    <div class="card-image-box">
+                        <div class="service-icon"><i class="fa-solid fa-paint-roller"></i></div>
+                        <span class="service-badge gold-badge">Decorating</span>
+                    </div>
+                    <div class="service-body">
+                        <h3>Interior & Exterior Painting</h3>
+                        <p>Flawless spray & brush finishes, surface skimming, plastering, woodwork restoration, and durable exterior weatherproofing for London properties.</p>
+                        <ul class="service-features">
+                            <li><i class="fa-solid fa-check"></i> Premium Farrow & Ball, Dulux Heritage</li>
+                            <li><i class="fa-solid fa-check"></i> Precision Masking & Clean Work Area</li>
+                            <li><i class="fa-solid fa-check"></i> Wood Panelling & Skirting Repair</li>
+                        </ul>
+                        <div class="card-action">
+                            <a href="https://wa.me/447497121829?text=Hello,%20I%20need%20Painting%20and%20Decorating%20services." target="_blank" class="btn btn-outline-dark btn-sm">Discuss Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us" id="about">
+        <div class="container why-grid">
+            <div class="why-image-wrapper">
+                <div class="experience-card">
+                    <div class="exp-icon"><i class="fa-solid fa-shield-heart"></i></div>
+                    <div class="exp-text">
+                        <strong>British Standards</strong>
+                        <span>Insured & Qualified Team</span>
+                    </div>
+                </div>
+                <div class="trust-list-box">
+                    <div class="trust-point"><i class="fa-solid fa-circle-check text-gold"></i> <span>100% On-Time Completion Guarantee</span></div>
+                    <div class="trust-point"><i class="fa-solid fa-circle-check text-gold"></i> <span>Zero Hidden Costs — Transparent Invoices</span></div>
+                    <div class="trust-point"><i class="fa-solid fa-circle-check text-gold"></i> <span>Dedicated British Project Management</span></div>
+                    <div class="trust-point"><i class="fa-solid fa-circle-check text-gold"></i> <span>Comprehensive Waste Disposal Licensing</span></div>
+                </div>
+            </div>
+
+            <div class="why-content">
+                <div class="section-tag">WHY CROWN JANITORIAL SERVICES?</div>
+                <h2 class="section-title">The British Standard of Property Care</h2>
+                <p class="section-subtitle">
+                    Most companies only clean, or only build. At <strong>Crown Janitorial Services</strong>, we bridge the gap. We prepare, refurbish, renovate, and surgically clean spaces under one unified management team.
+                </p>
+
+                <div class="feature-rows">
+                    <div class="feature-row">
+                        <div class="f-icon"><i class="fa-solid fa-medal"></i></div>
+                        <div class="f-text">
+                            <h4>One Contractor, Complete Ownership</h4>
+                            <p>No finger-pointing between builders and cleaners. We take your property from bare brick to spotless handover.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-row">
+                        <div class="f-icon"><i class="fa-solid fa-user-shield"></i></div>
+                        <div class="f-text">
+                            <h4>Vetted & Fully Insured Personnel</h4>
+                            <p>DBS-checked, uniformed professionals with comprehensive public and employers' liability insurance.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-row">
+                        <div class="f-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+                        <div class="f-text">
+                            <h4>Transparent Fixed Pricing</h4>
+                            <p>Clear, itemised written quotes before any work commences. No surprise fees, no hidden extras.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="why-cta">
+                    <a href="https://wa.me/447497121829?text=Hello,%20I%20want%20to%20know%20more%20about%20Crown%20Janitorial%20Services." target="_blank" class="btn btn-primary">
+                        <i class="fa-brands fa-whatsapp"></i> Speak With Our Property Manager
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Instant Quote Estimator -->
+    <section class="calculator-section" id="calculator">
+        <div class="container">
+            <div class="section-header text-center">
+                <div class="section-tag">TRANSPARENT & FAST</div>
+                <h2 class="section-title">Instant Online Quote Estimator</h2>
+                <p class="section-subtitle">
+                    Get an immediate ballpark estimate for your property in London & surrounds, then book directly via WhatsApp with 1 click.
+                </p>
+            </div>
+
+            <div class="calc-card">
+                <div class="calc-body">
+                    <div class="calc-inputs">
+                        <!-- Step 1: Service -->
+                        <div class="calc-group">
+                            <label class="calc-label">1. Select Service Category</label>
+                            <div class="service-pills" id="calcServiceType">
+                                <button type="button" class="pill-btn active" data-type="tenancy">End of Tenancy Clean</button>
+                                <button type="button" class="pill-btn" data-type="commercial">Office / Commercial</button>
+                                <button type="button" class="pill-btn" data-type="builders">After Builders Clean</button>
+                                <button type="button" class="pill-btn" data-type="refurb">Refurbishment / Build</button>
+                                <button type="button" class="pill-btn" data-type="painting">Painting & Decorating</button>
+                            </div>
+                        </div>
+
+                        <!-- Step 2: Property Size -->
+                        <div class="calc-group">
+                            <label class="calc-label">2. Property / Room Size</label>
+                            <select id="calcSize" class="calc-select">
+                                <option value="studio">Studio Flat / Small Office</option>
+                                <option value="1bed" selected>1 Bedroom Property / Medium Office</option>
+                                <option value="2bed">2 Bedroom Property / Commercial Unit</option>
+                                <option value="3bed">3 Bedroom House / Multi-floor Office</option>
+                                <option value="4bed">4+ Bedroom Luxury Property / Large Site</option>
+                            </select>
+                        </div>
+
+                        <!-- Step 3: Add-on Options -->
+                        <div class="calc-group">
+                            <label class="calc-label">3. Recommended Add-ons</label>
+                            <div class="checkbox-grid">
+                                <label class="custom-checkbox">
+                                    <input type="checkbox" id="addCarpet">
+                                    <span class="checkmark"></span>
+                                    <span>Professional Steam Carpet Clean (+£45)</span>
+                                </label>
+                                <label class="custom-checkbox">
+                                    <input type="checkbox" id="addOven">
+                                    <span class="checkmark"></span>
+                                    <span>Deep Oven & Extractor De-grease (+£35)</span>
+                                </label>
+                                <label class="custom-checkbox">
+                                    <input type="checkbox" id="addUrgent">
+                                    <span class="checkmark"></span>
+                                    <span>Urgent Same-Day / Next-Day Priority (+£40)</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quote Result Box -->
+                    <div class="calc-result-box">
+                        <div class="result-header">
+                            <span class="result-title">Estimated Investment</span>
+                            <span class="currency-tag">GBP (£)</span>
+                        </div>
+                        <div class="result-price" id="displayEstimate">£160 - £210</div>
+                        <p class="result-note">*Guide estimate for London & Surrounds. Final price confirmed upon free site survey or photos.</p>
+
+                        <div class="result-breakdown" id="resultSummary">
+                            <div class="summary-line">
+                                <span>Selected Service:</span>
+                                <strong id="summaryService">End of Tenancy Clean</strong>
+                            </div>
+                            <div class="summary-line">
+                                <span>Property Scope:</span>
+                                <strong id="summarySize">1 Bedroom Property</strong>
+                            </div>
+                        </div>
+
+                        <a href="#" id="whatsappQuoteBtn" class="btn btn-gold btn-block btn-lg">
+                            <i class="fa-brands fa-whatsapp"></i> Lock In This Quote on WhatsApp
+                        </a>
+                        <small class="guarantee-text"><i class="fa-solid fa-lock"></i> No upfront card required • Free survey</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coverage Area Map & List -->
+    <section class="coverage-section">
+        <div class="container coverage-grid">
+            <div class="coverage-text">
+                <div class="section-tag">REGIONAL COVERAGE</div>
+                <h2 class="section-title">Serving London & Surrounding Counties</h2>
+                <p>Our rapid mobile teams operate daily across Central London, Greater London, and the Home Counties:</p>
+                <div class="areas-grid">
+                    <div class="area-col">
+                        <h4>Central & West London</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-check text-gold"></i> Westminster & City</li>
+                            <li><i class="fa-solid fa-check text-gold"></i> Kensington & Chelsea</li>
+                            <li><i class="fa-solid fa-check text-gold"></i> Fulham & Hammersmith</li>
+                            <li><i class="fa-solid fa-check text-gold"></i> Marylebone & Mayfair</li>
+                        </ul>
+                    </div>
+                    <div class="area-col">
+                        <h4>North & East London</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-check text-gold"></i> Islington & Camden</li>
+                            <li><i class="fa-solid fa-check text-gold"></i> Canary Wharf & Docklands</li>
+                            <li><i class="fa-solid fa-check text-gold"></i> Hackney & Stratford</li>
+                            <li><i class="fa-solid fa-check text-gold"></i> Greenwich & Lewisham</li>
+                        </ul>
+                    </div>
+                    <div class="area-col">
+                        <h4>South & Surrounds</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-check text-gold"></i> Clapham, Battersea & Wandsworth</li>
+                            <li><i class="fa-solid fa-check text-gold"></i> Richmond & Wimbledon</li>
+                            <li><i class="fa-solid fa-check text-gold"></i> Croydon & Surrey borders</li>
+                            <li><i class="fa-solid fa-check text-gold"></i> Kent & Essex fringes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="coverage-badge-card">
+                <div class="badge-icon"><i class="fa-solid fa-van-shuttle"></i></div>
+                <h3>Mobile Teams on Standby</h3>
+                <p>Need urgent property restoration or last-minute key handover cleaning? Call our London dispatch direct.</p>
+                <a href="tel:+447497121829" class="btn btn-outline-white">
+                    <i class="fa-solid fa-phone"></i> +44 7497 121829
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Testimonials -->
+    <section class="testimonials" id="reviews">
+        <div class="container">
+            <div class="section-header text-center">
+                <div class="section-tag">TRUSTED BY LANDLORDS & HOMEOWNERS</div>
+                <h2 class="section-title">What Our UK Clients Say</h2>
+                <div class="rating-stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>5.0 / 5.0 Star Rating</span>
+                </div>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testi-card">
+                    <div class="testi-stars">★★★★★</div>
+                    <p class="testi-quote">
+                        "Crown Janitorial handled the end-of-tenancy clean and minor refurbishment repairs for our 3-bed apartment in Canary Wharf. The inventory clerk passed it without a single issue and we got our £2,800 deposit back immediately. Top tier work!"
+                    </p>
+                    <div class="testi-author">
+                        <div class="author-avatar"><i class="fa-solid fa-user"></i></div>
+                        <div class="author-info">
+                            <strong>Oliver Richardson</strong>
+                            <span>Tenant, Canary Wharf, London</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testi-card">
+                    <div class="testi-stars">★★★★★</div>
+                    <p class="testi-quote">
+                        "As a property manager handling 45 units across South London, finding a contractor who can do both construction repairs and deep cleaning is rare. Crown is our go-to team. Reliable, tidy, and communicate through WhatsApp seamlessly."
+                    </p>
+                    <div class="testi-author">
+                        <div class="author-avatar"><i class="fa-solid fa-user"></i></div>
+                        <div class="author-info">
+                            <strong>Victoria Sterling</strong>
+                            <span>Portfolio Landlord, Richmond</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testi-card">
+                    <div class="testi-stars">★★★★★</div>
+                    <p class="testi-quote">
+                        "We hired them for a complete bathroom refurbishment followed by a full sparkle clean. The tiling finish is immaculate and they left the house cleaner than when they started. Professional British quality throughout."
+                    </p>
+                    <div class="testi-author">
+                        <div class="author-avatar"><i class="fa-solid fa-user"></i></div>
+                        <div class="author-info">
+                            <strong>James & Sophie Hall</strong>
+                            <span>Homeowners, Kensington</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Direct WhatsApp Section -->
+    <section class="contact-section" id="contact">
+        <div class="container contact-container">
+            <div class="contact-info-panel">
+                <div class="section-tag">GET IN TOUCH</div>
+                <h2 class="section-title">Ready to Transform Your Space?</h2>
+                <p>Contact our UK property specialists today for a friendly, no-obligation quotation and site survey.</p>
+
+                <div class="contact-methods">
+                    <div class="c-method">
+                        <div class="c-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                        <div>
+                            <strong>WhatsApp (Fastest Response)</strong>
+                            <a href="https://wa.me/447497121829" target="_blank">+44 7497 121829</a>
+                            <small>Replies typically in under 15 mins</small>
+                        </div>
+                    </div>
+
+                    <div class="c-method">
+                        <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <strong>Direct Telephone</strong>
+                            <a href="tel:+447497121829">+44 7497 121829</a>
+                            <small>Monday to Saturday: 7am - 7pm</small>
+                        </div>
+                    </div>
+
+                    <div class="c-method">
+                        <div class="c-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                        <div>
+                            <strong>Operating Territory</strong>
+                            <span>London & Surrounding Counties</span>
+                            <small>Greater London, Surrey, Kent, Essex & Herts</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-panel">
+                <h3>Send an Instant Enquiry</h3>
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Full Name *</label>
+                            <input type="text" id="contactName" placeholder="e.g. John Smith" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone / WhatsApp *</label>
+                            <input type="tel" id="contactPhone" placeholder="+44 7497 121829" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Postcode / Location *</label>
+                            <input type="text" id="contactPostcode" placeholder="e.g. SW1X, London" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Service Type *</label>
+                            <select id="contactService">
+                                <option value="Professional Cleaning">Professional Cleaning</option>
+                                <option value="End of Tenancy">End of Tenancy Clean</option>
+                                <option value="Property Refurbishment">Property Refurbishment</option>
+                                <option value="Kitchen / Bathroom">Kitchen / Bathroom Renovation</option>
+                                <option value="Painting & Decorating">Painting & Decorating</option>
+                                <option value="Commercial Contract">Commercial Office Janitorial</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Tell Us About Your Property & Requirements</label>
+                        <textarea id="contactMessage" rows="4" placeholder="Describe the size, current condition, and your preferred dates..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-gold btn-block btn-lg">
+                        <i class="fa-brands fa-whatsapp"></i> Send Direct to WhatsApp
+                    </button>
+                    <p class="form-subtext">Clicking sends this inquiry directly to our WhatsApp team for an instant response.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/447497121829?text=Hello%20Crown%20Janitorial%20Services,%20I%20would%20like%20to%20get%20a%20quote." target="_blank" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="wa-tooltip">Chat with us on WhatsApp!</span>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <div class="logo-icon"><i class="fa-solid fa-crown"></i></div>
+                    <div class="logo-text">
+                        <span class="brand-name text-white">CROWN</span>
+                        <span class="brand-tagline">JANITORIAL & PROPERTY SERVICES</span>
+                    </div>
+                </div>
+                <p>Property specialists in the UK. Professional cleaning, comprehensive refurbishments, and property construction. Transforming spaces from the ground up.</p>
+                <div class="footer-badges">
+                    <span><i class="fa-solid fa-shield"></i> Fully Insured</span>
+                    <span><i class="fa-solid fa-star text-gold"></i> 5-Star Rated</span>
+                    <span><i class="fa-solid fa-sterling-sign"></i> Transparent Pricing</span>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Cleaning Divisions</h4>
+                <ul>
+                    <li><a href="#services">End of Tenancy Cleaning</a></li>
+                    <li><a href="#services">Commercial Office Janitorial</a></li>
+                    <li><a href="#services">After Builders Clean</a></li>
+                    <li><a href="#services">Carpet Steam Cleaning</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Refurbishment & Build</h4>
+                <ul>
+                    <li><a href="#refurbishment">Full Property Refurbishments</a></li>
+                    <li><a href="#refurbishment">Kitchen & Bathroom Fitting</a></li>
+                    <li><a href="#refurbishment">Painting & Decorating</a></li>
+                    <li><a href="#refurbishment">Plumbing & Electrics</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Crown</h4>
+                <p><i class="fa-brands fa-whatsapp text-gold"></i> WhatsApp: +44 7497 121829</p>
+                <p><i class="fa-solid fa-phone text-gold"></i> Call: +44 7497 121829</p>
+                <p><i class="fa-solid fa-location-dot text-gold"></i> London & Surrounding Counties, UK</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <p>&copy; 2026 Crown Janitorial Services. All Rights Reserved. Property Specialists UK.</p>
+                <p class="footer-tag">Transforming spaces from the ground up.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
